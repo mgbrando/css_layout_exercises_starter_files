@@ -6,6 +6,7 @@ main{
 }
 div{
 	display: inline-block;
+	border: 1px solid black;
 }
 div:nth-child(-n+2){
 	height: 200px;
