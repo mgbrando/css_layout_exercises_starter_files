@@ -10,3 +10,19 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+p img{
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p img:first-child{
+	float: left;
+	margin-right: 10px;
+}
+
+p img:last-child{
+	float: right;
+	margin-left: 10px;
+}
